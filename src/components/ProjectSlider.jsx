@@ -9,7 +9,7 @@ const ProjectSlider = ({ data }) => {
 	useEffect(() => {
 		setTimeout(() => {
 			setIsActive((prev) => (prev === data.length - 1 ? 0 : (prev += 1)));
-		}, 5000);
+		}, 10000);
 
 		return () => {};
 	}, [isActive]);
