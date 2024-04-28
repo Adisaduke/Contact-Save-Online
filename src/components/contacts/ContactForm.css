@@ -1,0 +1,175 @@
+.form-control {
+  margin-bottom: 1rem;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgb(241, 237, 237);
+  margin: 3rem auto;
+  margin-top: 180px;
+
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.control_group2 input {
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.form-control input:focus {
+  outline: none;
+  border-color: #008080;
+  background-color: #e0d4fd;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.country {
+  display: flex;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+
+}
+
+
+.country input {
+  width: 15rem;
+
+}
+
+
+button {
+  font: inherit;
+  background-color: #008080;
+  color: white;
+  border: 1px solid #008080;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #0c6d6d;
+  border-color: #0c6d6d;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+
+.loading {
+  position: fixed;
+  top: 0;
+  margin-top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black */
+  z-index: 1000;
+  /* Ensure it's on top of other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248, 230, 230);
+  /* Semi-transparent black */
+  z-index: 1000;
+  /* Ensure it's on top of other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-message {
+  background-color: rgb(249, 242, 242);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+  text-align: center;
+  font-size: 18px;
+}
+
+.successful_button button {
+  margin-right: 20px;
+  font-size: small;
+  width: fit-content;
+}
+
+.mark_icon {
+  margin: auto;
+  max-width: 10%;
+  color: green;
+  font-size: 3.5rem;
+}

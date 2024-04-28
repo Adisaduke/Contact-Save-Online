@@ -1,0 +1,311 @@
+* {
+  font-family:'Montserrat', sans-serif ;
+}
+
+
+.header {
+  width: 100%;
+  height: 7.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #008080;
+  position: fixed;
+  top: 0;
+
+}
+
+
+
+.logo {
+  font-size: 2rem;
+  left: 0;
+  color: white;
+  margin-left: 18px;
+  /* margin-right: 0;
+  padding-left: 0; */
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-family:'Montserrat', sans-serif ;
+  margin-left: 20px;
+  padding-left: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 768px)  {
+
+  * {
+    font-family:'Montserrat', sans-serif ;
+  }
+  
+  
+.bars {
+  display: none;
+}
+
+.logo {
+  margin-left: 0;
+  text-align: left;
+}
+.sidenav {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.sidenav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidenav li {
+  list-style: none;
+}
+
+.sidenav li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.sidenav li:hover {
+  background-color: rgb(40, 117, 113);
+}
+
+.hiden {
+  display: none;
+}
+
+.profile_details {
+ display: none;
+}
+
+.span2 {
+  margin-left: 5px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 870px) {
+  * {
+    font-family:'Montserrat', sans-serif ;
+  }
+  
+
+  .bars {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile */
+
+@media only screen and (max-width: 768px) {
+
+  * {
+    font-family:'Montserrat', sans-serif ;
+  }
+  
+
+  .header {
+      display: block;
+      /* position: fixed; */
+  
+    
+    }
+  
+  .logo {
+    font-size: 2rem;
+    left: 0;
+    color: white;
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-family:'Montserrat', sans-serif ;
+    margin-left: 20px;
+    padding-left: 20px;
+    left: 0;
+    padding-top: 24px;
+    flex-wrap: wrap;
+    display: flex;
+    position: fixed;
+  }
+    
+    
+    .sidenav {
+      width: 40%;
+      background: #008080;
+      position: fixed;
+      height: 100%;
+      padding: 0;
+      transition: all 1s;
+      top: 0;
+      left: -100%;
+      margin: 0;
+    
+    }
+  
+    .sidenav.active {
+      left: 0;
+    }
+  
+    ul {
+      padding-top: 20px;
+  
+    }
+  
+    ul li {
+      list-style-type: none;
+      margin: 8px 0;
+    }
+  
+    .profile_details img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-top: 12px;
+      margin-left: 30px;
+    }
+  
+    .profile_details p {
+      color: aliceblue;
+      font-size: 1.2rem;
+      font-weight: 400;
+      /* margin-left: 30px; */
+      margin: 0 30px 0;
+      flex-wrap: wrap;
+      display: flex;
+    }
+  
+  .profile_details .name {
+      font-weight: 600;
+      margin-top: 6px;
+  
+    
+    }
+  
+    .profile_details .userName {
+      margin-bottom: 13px;
+    }
+  
+    .span1 {
+      font-weight: 500px;
+      margin-right: 7px;
+      margin-left: 5px;
+    }
+
+    .span2 {
+      display: none;
+    }
+  
+    ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      z-index: 10;
+      display: block;
+      padding: 10px 0px;
+      border-radius: 6px;
+      left: 0;
+      position: relative;
+      font-weight: 500;
+    }
+  
+    ul li a:active,
+    ul li a:hover {
+      background: rgb(110, 216, 243);
+    }
+  
+  
+    .bars {
+      color: white;
+      /* margin-left: 10px; */
+      display: block;
+      z-index: 10;
+      position: fixed;
+      transition: 0.5s;
+      margin: 35px 10px;
+    
+    }
+  
+    .bar {
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+    }
+  
+  
+  
+  }
+  
+  
+  
+  
+  @media only screen and  (max-width:381px){
+    
+    * {
+      font-family:'Montserrat', sans-serif ;
+    }
+    
+    
+    .logo {
+      padding-top: 24px;
+    }
+  }
+  
+  @media only screen and  (max-width:480px){
+    
+    * {
+      font-family:'Montserrat', sans-serif ;
+    }
+    
+    .sidenav {
+      width: 80%;
+      background: #008080;
+      position: fixed;
+      height: 100%;
+      padding: 0;
+      transition: all 1s;
+      top: 0;
+      left: -100%;
+      margin: 0;
+    
+    }
+  }
+
+  
+@media only screen and (max-width: 400px)  {
+
+  * {
+    font-family:'Montserrat', sans-serif ;
+  }
+
+  
+  .logo {
+  word-wrap: break-word;
+  font-size: 1.7rem;
+  margin-top: 5px;
+  text-align: left;
+}
+}
+
+

@@ -1,0 +1,36 @@
+.all_contacts {
+    display: flex;
+
+}
+
+
+.name {
+    font-size: 1.5rem;
+    display: block;
+}
+
+
+.email {
+    font-size: 1.2rem;
+    flex: 2;
+}
+
+.contacts {
+    display: flex;
+}
+
+.number {
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between
+}
+
+.icons div {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    margin-left: 35px;
+}

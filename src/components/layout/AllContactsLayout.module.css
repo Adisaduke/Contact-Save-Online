@@ -1,0 +1,65 @@
+
+
+* {
+    font-family:'Montserrat', sans-serif ;
+}
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    flex-wrap: wrap;
+}
+
+
+.phoneBook {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.search {
+    display: flex;
+    margin-bottom: 2px;
+    height: 40px;
+}
+
+.search input {
+    font-size: 18px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.add {
+    float: right;
+    padding: 15px 0;
+    margin-top: 5px;
+}
+
+
+.container {
+    margin-bottom: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+.add {
+    float: right;
+    padding: 15px 0;
+    margin-top: 0;
+    
+}
+.container {
+    margin-bottom: 100px;
+}
+
+}
+
+
+
