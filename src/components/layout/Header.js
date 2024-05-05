@@ -45,7 +45,7 @@ const Header = () => {
             <header className="header" ref={menuRef}>
                 <div className='bars' >
                     <FaIcons.FaBars className='bar' onClick={sidebarHandler} />               </div>
-                <Link to='/'> <div className='logo'>Contact Information</div></Link>
+                <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to='/'> <div className='logo'>Contact Information</div></Link>
                 <div ref={menuRef} className={sidebar ? "sidenav active" : "sidenav"}>
                     <div className="profile_details">
                         <img src={avi} alt='Duke Avi' />
